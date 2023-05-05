@@ -327,8 +327,9 @@ a {
 }
 .menu-flex {
   gap: 40px;
+  display: flex;
 }
-.header-manu {
+.header-menu {
   padding: 24px 0;
 }
 .header-adress-list {
