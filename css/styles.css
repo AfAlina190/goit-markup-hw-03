@@ -325,7 +325,14 @@ a {
 .header-logo {
   margin-right: 76px;
 }
-/* .menu-flex { */
+.menu-flex {
+  gap: 40px;
+}
+.header-manu {
+  padding: 24px 0;
+}
+.header-adress-list {
+  display: flex;
   gap: 40px;
 }
 /*   */
