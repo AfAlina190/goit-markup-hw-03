@@ -336,8 +336,39 @@ a {
   display: flex;
   gap: 40px;
 }
-/*   */
+/* =====first-section-index==== */
 
+.service-container {
+  padding: 188px 0;
+}
+.title-service {
+  max-width: 496px;
+}
+.button-service {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* ===second-section=== */
+.section-specialties {
+  padding: 120px 0;
+}
+.specialties-list {
+  display: flex;
+  gap: 24px;
+}
+.strategy-list {
+  width: calc((100% - 72px) / 4);
+}
+.title-strategy {
+  margin-bottom: 8px;
+}
+/* */
 /* FOOTER-container */
 .container {
 }
