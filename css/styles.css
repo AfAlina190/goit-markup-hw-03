@@ -338,9 +338,12 @@ a {
 /*   */
 
 /* FOOTER-container */
+.container {
+}
 .footer-container {
   padding: 100px 0;
 }
+
 .footer-link-block {
   display: inline-block;
   margin-bottom: 16px;
