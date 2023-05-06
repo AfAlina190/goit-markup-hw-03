@@ -336,6 +336,10 @@ a {
 .header-adress-list {
   display: flex;
   gap: 40px;
+  position: absolute;
+  height: 24px;
+  left: 940px;
+  top: 24px;
 }
 /* =====first-section-index==== */
 
