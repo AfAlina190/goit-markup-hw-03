@@ -209,6 +209,7 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 /* Body */
@@ -429,8 +430,11 @@ a {
   border: 1px solid transparent;
   border: 1px solid #e7e9fc;
 }
-/* .button-list-tools:hover,
-.button-list-tools:focus */
+.button-list-tools:hover,
+.button-list-tools:focus {
+  border: 1px solid transparent;
+}
+
 .list-pic {
   display: flex;
   flex-wrap: wrap;
