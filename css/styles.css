@@ -315,7 +315,7 @@ a {
   margin: 0 auto;
   padding: 0 15px;
 }
-.flex-conainer {
+.flex-container {
   display: flex;
 }
 .header-nav {
@@ -377,6 +377,7 @@ a {
 }
 .worksheet {
   gap: 24px;
+  display: flex;
 }
 .work-list {
   width: calc((100% - 48px) / 3);
@@ -406,10 +407,47 @@ a {
 .employees-position {
   text-align: center;
 }
+/* ============block- portfolio============= */
+
+/* ------header-portfolio------- */
+
+.header-block {
+  border-bottom: 1px solid #e7e9fc;
+}
+/* main-portfolio */
+.main-section {
+  padding: 96px 0 120px;
+}
+.button-list {
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.button-list-tools {
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+/* .button-list-tools:hover,
+.button-list-tools:focus */
+.list-pic {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.possibilities-list {
+  width: calc((100% - 48px) / 3);
+}
+.container-application-name {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
 /*  */
 /* FOOTER-container */
-.container {
-}
 .footer-container {
   padding: 100px 0;
 }
